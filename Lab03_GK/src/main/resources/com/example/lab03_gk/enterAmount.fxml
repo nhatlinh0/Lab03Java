@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="146.0" prefWidth="582.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab03_gk.EnterAmountController">
+   <children>
+      <Label layoutX="60.0" layoutY="65.0" text="Nhập số tiền cần rút:" />
+      <Button fx:id="btnOK" layoutX="413.0" layoutY="61.0" mnemonicParsing="false" onAction="#onClick1" prefHeight="25.0" prefWidth="47.0" text="OK" />
+      <TextField fx:id="txtSoTien" layoutX="213.0" layoutY="60.0" />
+   </children>
+</AnchorPane>

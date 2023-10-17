@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="346.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab03_gk.BillsController">
+   <children>
+      <Label layoutX="129.0" layoutY="35.0" text="BIÊN LAI GIAO DỊCH" />
+      <Label layoutX="94.0" layoutY="77.0" text="Ngày giao dịch:" />
+      <Label layoutX="94.0" layoutY="115.0" text="ATM ID:" />
+      <Label layoutX="94.0" layoutY="151.0" text="Số tài khoản:" />
+      <Label layoutX="94.0" layoutY="192.0" text="Số tiền:" />
+      <Label layoutX="94.0" layoutY="235.0" text="Số dư:" />
+      <Label layoutX="94.0" layoutY="275.0" text="Phí + VAT:" />
+      <Label fx:id="NgayGD" layoutX="191.0" layoutY="77.0" text="Label" />
+      <Label fx:id="ATMID" layoutX="191.0" layoutY="115.0" text="Label" />
+      <Label fx:id="STK" layoutX="191.0" layoutY="151.0" text="Label" />
+      <Label fx:id="SoTien" layoutX="191.0" layoutY="192.0" text="Label" />
+      <Label fx:id="SoDu" layoutX="191.0" layoutY="235.0" text="Label" />
+      <Label fx:id="Phi" layoutX="191.0" layoutY="275.0" text="Label" />
+   </children>
+</AnchorPane>
